@@ -1,0 +1,272 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.buton_1{
+  height:38px;
+  background:#2A7242;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.fundal-inchis{
+  padding:15px;
+  background:#41A85F;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#41A85F;
+  color:#ffffff;
+  padding-top:5px;
+  min-height:50px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header .brand{
+  float:left;
+  font-size:15px;
+}
+
+header .brand h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .marcaj, header .curent a{
+  color:#333333;
+  font-weight:bold;
+
+
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Prezentare */
+.prezentare{
+  min-height:700px;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/prezentare1.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+
+.prezentare h1{
+  margin-top:250px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+.prezentare p{
+  font-size:20px;
+}
+
+/* Noutati */
+#noutati{
+  padding:0px;
+  color:#ffffff;
+  background:#90A878;
+}
+
+#noutati h1{
+  float:left;
+}
+
+#noutati form {
+  float:right;
+  margin-top:15px;
+}
+
+#noutati input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Chenare */
+.chenare{
+  margin-top:20px;
+}
+
+.chenare .chenar{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+.chenare .chenar img{
+  width:90px;
+}
+
+/* Col-dreapta */
+aside.col-dreapta{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside.col-dreapta .cotatie input, aside.col-dreapta .cotatie textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Col-princip */
+article.col-princip{
+  float:left;
+  width:65%;
+}
+
+/* Despre noi */
+ul.despre-noi li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:5px;
+  color:#ffffff;
+  background-color:#41A85F;
+  text-align: center;
+}
+
+/* Container 2 */
+.container2{
+  width:auto;
+  margin:auto;
+  overflow:hidden;
+}
+
+/* Fundal dino*/
+
+.fundal-verde{
+background:#90A878
+}
+
+.fundal-maro{
+background:#BFA374
+}
+
+/* Ajustare poza */
+
+img.resize {
+  max-width:43%;
+  max-height:43%;
+}
+
+/* Poza dino */
+
+article.poza-dino{
+  float: left;
+  text-align: left;
+  padding-left: 200px;
+  padding-right:200px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+/* Text dino */
+
+aside.text-dino{
+  float: right;
+  width:40%;
+  margin-top:-50%;
+}
+
+aside.text-dino h2{
+
+  padding-left: 15%;
+  font-size:30px;
+  line-height:0.2;
+
+}
+
+aside.text-dino p1{
+  font-size:30px;
+  padding-left:120px;
+  line-height: 0.3;
+
+}
+
+
+aside.text-dino p2{
+  font-size:18px;
+}
+
+
+/* Cerinte media */
+@media(max-width: 768px){
+  header .brand,
+  header nav,
+  header nav li,
+  #noutati h1,
+  #noutati form,
+  .chenare .chenar,
+  article.col-princip,
+  aside.col-dreapta{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  .prezentare h1{
+    margin-top:40px;
+  }
+
+  #noutati button, .cotatie button{
+    display:block;
+    width:100%;
+  }
+
+  #noutati form input[type="email"], .cotatie input, .cotatie textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
