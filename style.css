@@ -58,7 +58,7 @@ header li{
 }
 
 header .brand{
-  float: none;
+  float: inherit;
   font-size:15px;
   margin-bottom: -50px;
 }
