@@ -28,6 +28,11 @@
     --color-complement-2:#D4846A;
     --color-complement-3:#802F15;
     --color-complement-4:#551400;
+
+    /* Fonturi */
+    --color-light-0:#FFFFFF;
+    --color-gey-0:#333333;
+    --color-dark-0:#000000;
 }
 
 body{
@@ -36,7 +41,7 @@ body{
   line-height:1.5;
   padding:0;
   margin:0;
-  background-color:#BFA374;
+  background-color:var(--color-primary-0); /*#BFA374*/
 }
 
 /* Global */
@@ -53,31 +58,31 @@ ul{
 
 .buton_1{
   height:38px;
-  background:var(--color-primary-0); /* #2A7242*/
+  background:var(--color-primary-4); /* #2A7242*/
   border:0;
   padding-left: 20px;
   padding-right:20px;
-  color:#ffffff;
+  color:var(--color-light-0);
 }
 
 .fundal-inchis{
   padding:15px;
-  background:#41A85F;
-  color:#ffffff;
+  background:var(--color-primary-4);
+  color:var(--color-light-0);
   margin-top:10px;
   margin-bottom:10px;
 }
 
 /* Header **/
 header{
-  background:var(--color-primary-2); /*#41A85F*/
-  color:#ffffff;
+  background:var(--color-primary-4); /*#41A85F*/
+  color:var(--color-light-0);
   padding-top:5px;
   min-height:50px;
 }
 
 header a{
-  color:#ffffff;
+  color:var(--color-light-0);
   text-decoration:none;
   text-transform: uppercase;
   font-size:15px;
@@ -108,7 +113,7 @@ header nav{
 }
 
 header .marcaj, header .curent a{
-  color:#333333;
+  color:var(--color-grey-0);
   font-weight:bold;
 }
 
@@ -119,7 +124,7 @@ header .marcaj, header .curent a{
 }
 
 header a:hover{
-  color:#cccccc;
+  color:var(--color-complement-1);
   font-weight:bold;
 }
 
@@ -128,7 +133,7 @@ header a:hover{
   min-height:700px;
   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/prezentare1.jpg') no-repeat 0 -400px;
   text-align:center;
-  color:#ffffff;
+  color:var(--color-light-0);
 }
 
 .prezentare h1{
@@ -144,8 +149,8 @@ header a:hover{
 /* Noutati */
 #noutati{
   padding:0px;
-  color:#ffffff;
-  background:#90A878;
+  color:var(--color-light-0);
+  background:var(--color-primary-1);
 }
 
 #noutati h1{
@@ -159,7 +164,7 @@ header a:hover{
 
 #noutati input[type="email"]{
   padding:4px;
-  height:25px;
+  height:28px;
   width:250px;
 }
 
@@ -204,13 +209,13 @@ ul.despre-noi li{
   padding:20px;
   border: #cccccc solid 1px;
   margin-bottom:5px;
-  background:#e6e6e6;
+  background:var(--color-secondary-2-1);
 }
 
 footer{
   padding:5px;
-  color:#ffffff;
-  background-color:var(--color-primary-2); /*#41A85F*/
+  color:var(--color-light-0);
+  background-color:var(--color-primary-4); /*#41A85F*/
   text-align: center;
 }
 
@@ -224,11 +229,11 @@ footer{
 /* Fundal dino*/
 
 .fundal-verde{
-background:#90A878
+background:var(--color-primary-1);
 }
 
 .fundal-maro{
-background:#BFA374
+background:var(--color-complement-2);
 }
 
 /* Ajustare poza */
@@ -262,7 +267,7 @@ aside.text-dino h2{
   padding-left: 15%;
   font-size:30px;
   line-height:0.2;
-  color:#232323;
+  color:var(--color-grey-0);
 
 }
 
@@ -270,14 +275,14 @@ aside.text-dino p1{
   font-size:30px;
   padding-left:120px;
   line-height: 0.3;
-  color:#232323;
+  color:var(--color-grey-0);
 
 }
 
 
 aside.text-dino p2{
   font-size:18px;
-  color:#232323;
+  color:var(--color-grey-0);
 }
 
 /* Cerinte media */
