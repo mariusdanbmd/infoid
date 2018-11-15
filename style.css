@@ -1,3 +1,35 @@
+/* Definim o paleta de culori pe baza culorilor generate cu paletton */
+/* Palette URL: http://paletton.com/#uid=7300u0kllllaFw0g0qFqFg0w0aF */
+:root {
+    /* Tonuri de verde */
+    --color-primary-0:#28774F;
+    --color-primary-1:#77B395;
+    --color-primary-2:#4B956F;
+    --color-primary-3:#0F5934;
+    --color-primary-4:#003C1D;
+
+    /* Tonuri de albastru */
+    --color-secondary-1-0:#28536C;
+    --color-secondary-1-1:#6F8FA3;
+    --color-secondary-1-2:#477087;
+    --color-secondary-1-3:#113951;
+    --color-secondary-1-4:#032336;
+
+    /* Tonuri de galben */
+    --color-secondary-2-0:#AA7739;
+    --color-secondary-2-1:#FFD9AA;
+    --color-secondary-2-2:#D4A56A;
+    --color-secondary-2-3:#805015;
+    --color-secondary-2-4:#552F00;
+
+    /* Tonuri de rosu */
+    --color-complement-0:#AA5439;
+    --color-complement-1:#FFBEAA;
+    --color-complement-2:#D4846A;
+    --color-complement-3:#802F15;
+    --color-complement-4:#551400;
+}
+
 body{
   font-family:Arial, Helvetica, sans-serif;
   font-size:15px;
@@ -21,7 +53,7 @@ ul{
 
 .buton_1{
   height:38px;
-  background:#2A7242;
+  background:var(--color-primary-0); /* #2A7242*/
   border:0;
   padding-left: 20px;
   padding-right:20px;
@@ -38,7 +70,7 @@ ul{
 
 /* Header **/
 header{
-  background:#41A85F;
+  background:var(--color-primary-2); /*#41A85F*/
   color:#ffffff;
   padding-top:5px;
   min-height:50px;
