@@ -221,6 +221,7 @@ aside.text-dino h2{
   padding-left: 15%;
   font-size:30px;
   line-height:0.2;
+  color:#232323;
 
 }
 
@@ -228,12 +229,14 @@ aside.text-dino p1{
   font-size:30px;
   padding-left:120px;
   line-height: 0.3;
+  color:#232323;
 
 }
 
 
 aside.text-dino p2{
   font-size:18px;
+  color:#232323;
 }
 
 
