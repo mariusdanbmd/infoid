@@ -210,7 +210,7 @@ ul.despre-noi li{
 footer{
   padding:5px;
   color:#ffffff;
-  background-color:#41A85F;
+  background-color:var(--color-primary-2); /*#41A85F*/
   text-align: center;
 }
 
