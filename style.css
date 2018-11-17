@@ -42,6 +42,7 @@ body{
   padding:0;
   margin:0;
   background-color:var(--color-primary-0); /*#BFA374*/
+  color:var(--color-grey-0);
 }
 
 /* Global */
@@ -131,7 +132,7 @@ header a:hover{
 /* Prezentare */
 .prezentare{
   min-height:700px;
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/prezentare1.jpg') no-repeat 0 -400px;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./img/prezentare.jpg') no-repeat -100px -200px;
   text-align:center;
   color:var(--color-light-0);
 }
@@ -192,7 +193,7 @@ aside.col-dreapta{
   margin-top:10px;
 }
 
-aside.col-dreapta .cotatie input, aside.col-dreapta .cotatie textarea{
+aside.col-dreapta .parere input, aside.col-dreapta .parere textarea{
   width:90%;
   padding:5px;
 }
@@ -203,13 +204,12 @@ article.col-princip{
   width:65%;
 }
 
-/* Despre noi */
-ul.despre-noi li{
+/* Stiati ca */
+ul.stiati-ca li{
   list-style: none;
   padding:20px;
-  border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:var(--color-secondary-2-1);
+  margin-bottom:10px;
+  background:#90A878;
 }
 
 footer{
@@ -288,6 +288,9 @@ aside.text-dino p2{
 /* Cerinte media */
 @media(max-width: 768px){
   header .brand,
+  header .container,
+  header .marcaj,
+  .brand .img,
   header nav,
   header nav li,
   #noutati h1,
@@ -304,17 +307,49 @@ aside.text-dino p2{
     padding-bottom:20px;
   }
 
+  .brand h2{
+    padding-bottom:30px;
+    padding-right: 120px;
+    }
+
+  .brand img{
+    padding-left: 120px;
+    }
+
   .prezentare h1{
     margin-top:40px;
   }
 
-  #noutati button, .cotatie button{
+  #noutati button, .parere button{
     display:block;
     width:100%;
   }
 
-  #noutati form input[type="email"], .cotatie input, .cotatie textarea{
+  #noutati form input[type="email"], .parere input, .parere textarea{
     width:100%;
     margin-bottom:5px;
   }
+
+  article.poza-dino{
+    float: none;
+    padding-left: 80px;
+    width: 600px;
+  }
+
+
+  aside.text-dino{
+    width:40%;
+    padding-right: 140px;
+
+  }
+
+
+  aside.text-dino h2{
+    margin-top: 200px;
+
+
+
+  }
+
+
 }
