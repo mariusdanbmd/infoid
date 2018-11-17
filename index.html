@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="informatii despre dinozauri">
-	  <meta name="keywords" content="specie, dinozaur, localizare geografica, perioada">
-  	<meta name="author" content="Lucian Ghetler, Marius Dan Berghea">
+
+<head>
+    <!-- Proprietati -->
+    <meta http-equiv="content-type" content="text/html; charset=" utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta name="description" content="Informții despre dinozauri">
+    <meta name="keywords" content="specie, dinozaur, localizare geografică, perioada">
+    <meta name="author" content="Lucian Ghetler, Marius Dan Berghea">
+
+    <!-- Titlu -->
     <title>Dinopedia | Bine ai venit!</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
+
+    <!-- Bootstrap -->
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <!-- Stiluri proprii -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
     <header>
-      <div class="container">
-        <div class="brand">
-          <img src="img/logo.png" >
-          <h2><span class="marcaj">DINO</span>PEDIA</h2>
+        <div class="container">
+            <div class="brand">
+                <img src="img/logo.png">
+                <h2><span class="marcaj">DINO</span>PEDIA</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li class="curent"><a href="index.html">Acasa</a></li>
+                    <li><a href="istorie.html">Istorie</a></li>
+                    <li><a href="stiatica.html">Stiați că</a></li>
+                    <li><a href="dinozauri.html">Dinozauri</a></li>
+                    <li><a href="galeriefoto.html">Galerie foto</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-          <ul>
-            <li class="curent"><a href="index.html">Acasa</a></li>
-            <li><a href="istorie.html">Istorie</a></li>
-            <li><a href="stiatica.html">Stiati ca</a></li>
-            <li><a href="dinozauri.html">Dinozauri</a></li>
-            <li><a href="galeriefoto.html">Galerie foto</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
     </header>
 
     <section class="prezentare">
         <div class="container">
-          <h1>Bine ai venit pe Dinopedia!</h1>
-          <p>Cu milioane de ani in urma, undeva in adancurile istoriei nescrise a Pamantului, dinozaurii – acele creaturi preistorice uimitoare – au dominat lumea animala, au fost stapanii lumii. Vă propunem să începem o călătorie virtuală pentru a-i cunoaste! </p>
+            <h1>Bine ați venit pe Dinopedia!</h1>
+            <p>Cu milioane de ani în urmă, undeva în adancurile istoriei nescrise a Pamantului, dinozaurii – acele creaturi preistorice uimitoare – au dominat lumea animala, au fost stapanii lumii. Vă propunem să începem o călătorie virtuală pentru a-i cunoaste! </p>
         </div>
     </section>
 
     <section id="noutati">
-      <div class="container">
-          <h1>Aboneaza-te la noutati</h1>
-          <form>
-            <input type="email" placeholder="Introdu adresa de email...">
-            <button type="submit" class="buton_1">Inregistrare</button>
-          </form>
+        <div class="container">
+            <h1>Aboneaza-te la noutati</h1>
+            <form>
+                <input type="email" placeholder="Introdu adresa de email...">
+                <button type="submit" class="buton_1">Inregistrare</button>
+            </form>
         </div>
     </section>
 
     <section class="chenare">
-      <div class="container">
-        <div class="chenar">
-          <img src="./img/dinoicon1.png">
-          <h3>Vei intelege...</h3>
-          <h3>cum au trait dinozaurii</h3>
+        <div class="container">
+            <div class="chenar">
+                <img src="./img/dinoicon1.png">
+                <h3>Vei intelege...</h3>
+                <h3>cum au trait dinozaurii</h3>
+            </div>
+            <div class="chenar">
+                <img src="./img/dinoicon2.png">
+                <h3>Vei afla...</h3>
+                <h3>curiozitati despre dinozauri</h3>
+            </div>
+            <div class="chenar">
+                <img src="./img/dinoicon3.png">
+                <h3>Vei vedea...</h3>
+                <h3>cum aratau dinozaurii</h3>
+            </div>
         </div>
-        <div class="chenar">
-          <img src="./img/dinoicon2.png">
-          <h3>Vei afla...</h3>
-          <h3>curiozitati despre dinozauri</h3>
-        </div>
-        <div class="chenar">
-          <img src="./img/dinoicon3.png">
-          <h3>Vei vedea...</h3>
-          <h3>cum aratau dinozaurii</h3>
-        </div>
-      </div>
     </section>
 
     <footer>
-      <p>Dinopedia 2018 | Copyright © - Toate drepturile rezervate. Design realizat de Marius Dan Berghea si Lucian Ghetler</p>
+        <p>Dinopedia 2018 | Copyright © - Toate drepturile rezervate. Design realizat de Marius Dan Berghea si Lucian Ghetler</p>
     </footer>
 
-  </body>
+
+    <!-- jQuery (necessar pentru pluginurile JavaScript ale Bootstrap) -->
+    <script src = "https://code.jquery.com/jquery.js"></script>
+    <!-- Includem plugin-urile Bootstrap -->
+    <script src = "js/bootstrap.min.js"></script>
+</body>
+
 </html>
