@@ -22,7 +22,7 @@
     --color-secondary-2-2:#D4A56A;
     --color-secondary-2-3:#805015;
     --color-secondary-2-4:#552F00;
-    --color-secondary-2-4:#BFA374;
+    --color-secondary-2-5:#BFA374;
 
     /* Tonuri de rosu */
     --color-complement-0:#AA5439;
@@ -43,7 +43,7 @@ body{
   line-height:1.5;
   padding:0;
   margin:0;
-  background-color:var(--color-secondary-2-4); /*#BFA374*/
+  background-color:var(--color-secondary-2-5); /*#BFA374*/
   color:var(--color-grey-0);
 }
 
