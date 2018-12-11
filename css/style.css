@@ -7,6 +7,7 @@
     --color-primary-2:#4B956F;
     --color-primary-3:#0F5934;
     --color-primary-4:#003C1D;
+    --color-primary-5:#41A85F;
 
     /* Tonuri de albastru */
     --color-secondary-1-0:#28536C;
@@ -21,6 +22,7 @@
     --color-secondary-2-2:#D4A56A;
     --color-secondary-2-3:#805015;
     --color-secondary-2-4:#552F00;
+    --color-secondary-2-4:#BFA374;
 
     /* Tonuri de rosu */
     --color-complement-0:#AA5439;
@@ -31,7 +33,7 @@
 
     /* Fonturi */
     --color-light-0:#FFFFFF;
-    --color-gey-0:#333333;
+    --color-grey-0:#333333;
     --color-dark-0:#000000;
 }
 
@@ -41,14 +43,14 @@ body{
   line-height:1.5;
   padding:0;
   margin:0;
-  background-color:var(--color-primary-0); /*#BFA374*/
+  background-color:var(--color-secondary-2-4); /*#BFA374*/
   color:var(--color-grey-0);
 }
 
 /* Global */
 
 .meniu-fix{
-  background:var(--color-primary-4); /*#41A85F*/
+  background:var(--color-primary-3); /*#41A85F*/
   color:var(--color-light-0);
   padding-top:5px;
   min-height:50px;
@@ -97,14 +99,14 @@ header{
   min-height:50px;
 }
 
-header a{
+header .meniu-fix a{
   color:var(--color-light-0);
-  text-decoration:none;
+  text-decoration: none;
   text-transform: uppercase;
   font-size:15px;
 }
 
-header li{
+header .meniu-fix li{
   float:left;
   display:inline;
   padding: 0 20px 0 20px;
@@ -114,7 +116,7 @@ header .brand{
   float: inherit;
   font-size:15px;
   margin-bottom: -50px;
-  margin-top: -12px;
+  margin-top: 5px;
 }
 
 header .brand h1{
@@ -139,6 +141,7 @@ header .marcaj, header .curent a{
   float: left;
   width: 30px;
   height: 30px;
+  margin-top:-3px;
 }
 
 header a:hover{
@@ -167,17 +170,18 @@ header a:hover{
 /* Noutati */
 #noutati{
   padding:0px;
-  color:var(--color-light-0);
+  color:var(--color-grey-0);
   background:var(--color-primary-1);
 }
 
-#noutati h1{
+#noutati h2{
   float:left;
+  margin-top:7px;
 }
 
 #noutati form {
   float:right;
-  margin-top:15px;
+  margin-top:3px;
 }
 
 #noutati input[type="email"]{
@@ -196,6 +200,7 @@ header a:hover{
   text-align: center;
   width:30%;
   padding:10px;
+  margin-left: 30px;
 }
 
 .chenare .chenar img{
