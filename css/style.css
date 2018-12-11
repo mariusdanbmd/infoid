@@ -8,6 +8,7 @@
     --color-primary-3:#0F5934;
     --color-primary-4:#003C1D;
     --color-primary-5:#41A85F;
+    --color-primary-6:#90A878;
 
     /* Tonuri de albastru */
     --color-secondary-1-0:#28536C;
@@ -30,6 +31,7 @@
     --color-complement-2:#D4846A;
     --color-complement-3:#802F15;
     --color-complement-4:#551400;
+    --color-complement-5:#BFA374;
 
     /* Fonturi */
     --color-light-0:#FFFFFF;
@@ -251,11 +253,11 @@ footer{
 /* Fundal dino*/
 
 .fundal-verde{
-background:var(--color-primary-1);
+background:var(--color-primary-6);
 }
 
 .fundal-maro{
-background:var(--color-complement-2);
+background:var(--color-complement-5);
 }
 
 /* Ajustare poza */
