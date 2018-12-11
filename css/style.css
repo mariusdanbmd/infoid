@@ -46,11 +46,26 @@ body{
 }
 
 /* Global */
+
+.meniu-fix{
+  background:var(--color-primary-4); /*#41A85F*/
+  color:var(--color-light-0);
+  padding-top:5px;
+  min-height:50px;
+}
+
 .container{
   width:80%;
   margin:auto;
   overflow:hidden;
 }
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
 
 ul{
   margin:0;
@@ -134,7 +149,7 @@ header a:hover{
 /* Prezentare */
 .prezentare{
   min-height:700px;
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/prezentare.jpg') no-repeat -100px -200px;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/prezentare.jpg') no-repeat fixed -100px -200px;
   text-align:center;
   color:var(--color-light-0);
 }

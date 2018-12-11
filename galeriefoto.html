@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dinopedia | Galerie Foto</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-      <h1>Work in progress...</h1>
 
-  </body>
+<head>
+    <!-- Proprietati -->
+    <meta http-equiv="content-type" content="text/html; charset=" utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <meta name="description" content="Informții despre dinozauri">
+    <meta name="keywords" content="specie, dinozaur, localizare geografică, perioada">
+    <meta name="author" content="Lucian Ghetler, Marius Dan Berghea">
+
+    <!-- am inserat aceste link-uri pentru bootstrap, js si jquery, cu ce avem local ceva nu functioneaza pentru affix (meniul fix) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Titlu -->
+    <title>Dinopedia | Galerie foto</title>
+
+    <!-- astea nu par sa mearga, le-am folosit pe cele de sus -->
+    <!-- Bootstrap -->
+    <link href = "css/bootstrap.min.css" rel = "stylesheet">
+    <!-- jQuery (necessar pentru pluginurile JavaScript ale Bootstrap) -->
+    <script src = "https://code.jquery.com/jquery.js"></script>
+    <!-- Includem plugin-urile Bootstrap -->
+    <script src = "js/bootstrap.min.js"></script>
+
+    <!-- Stiluri proprii -->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <section class="meniu-fix" data-spy="affix">
+      <div class="container">
+          <div class="brand">
+              <img src="img/logo.png">
+              <h2><span class="marcaj">DINO</span>PEDIA</h2>
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Acasa</a></li>
+                  <li><a href="istorie.html">Istorie</a></li>
+                  <li><a href="stiatica.html">Stiați că</a></li>
+                  <li><a href="dinozauri.html">Dinozauri</a></li>
+                  <li class="curent"><a href="galeriefoto.html">Galerie foto</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+    </section>
+  </header>
+
+<body>
+
+<div class="continut-foto">
+  <div class="rand1">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/lights.jpg" target="_blank">
+          <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/nature.jpg" target="_blank">
+          <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="/w3images/fjords.jpg" target="_blank">
+          <img src="/w3images/fjords.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
