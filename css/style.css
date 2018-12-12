@@ -36,6 +36,7 @@
     /* Fonturi */
     --color-light-0:#FFFFFF;
     --color-grey-0:#333333;
+    --color-grey-1:#7C7C7C;
     --color-dark-0:#000000;
 }
 
@@ -176,7 +177,7 @@ header a:hover{
   background:var(--color-primary-1);
 }
 
-#noutati h2{
+#noutati h3{
   float:left;
   margin-top:7px;
 }
@@ -197,18 +198,37 @@ header a:hover{
   margin-top:20px;
 }
 
+
+
 .chenare .chenar{
-  float:left;
-  text-align: center;
-  width:30%;
-  padding:10px;
+  float: left;
+  text-align:left;
+  width:-10%;
+  padding:15px;
+  margin-left: 170px;
+}
+
+/*
+.chenare .chenar:hover{
+  color:var(--color-light-0);
+  font-weight:bold;
+}
+*/
+
+.chenare .chenar img{
+  width:40px;
   margin-left: 30px;
 }
 
-.chenare .chenar img{
-  width:90px;
+.chenare .chenar a{
+  color:var(--color-grey-0);
+  text-decoration: none;
 }
 
+.chenare .chenar a:hover{
+  color:var(--color-complement-1);
+  text-decoration: none;
+}
 
 /* Col-dreapta */
 aside.col-dreapta{
@@ -293,13 +313,17 @@ aside.text-dino h2{
   line-height:0.2;
   color:var(--color-grey-0);
 
+
 }
 
 aside.text-dino p1{
   font-size:30px;
-  padding-left:120px;
+  padding-left:90px;
   line-height: 0.3;
   color:var(--color-grey-0);
+
+
+
 
 }
 
@@ -307,10 +331,164 @@ aside.text-dino p1{
 aside.text-dino p2{
   font-size:18px;
   color:var(--color-grey-0);
+
+
 }
+
+/* Contact */
+
+.prezentare-contact{
+  min-height:700px;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/contact.jpg') no-repeat fixed 0px -200px;
+  text-align:center;
+  color:var(--color-light-0);
+}
+
+.prezentare-contact h1{
+  margin-top:150px;
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+.fundal-contact{
+  padding:15px;
+  color:var(--color-light-0);
+  margin-top:10px;
+  margin-bottom:10px;
+
+}
+
+#noutati-contact{
+  padding:0px;
+  color:var(--color-grey-0);
+  background:var(--color-primary-5);
+  margin-top: -10px;
+}
+
+#noutati-contact .adresa h4{
+    color:var(--color-grey-0);
+    float: left;
+    font-weight:bold;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+#noutati-contact .adresa p1{
+    color:var(--color-light-0);
+    float: left;
+    margin-top:50px;
+    margin-left:-68px;
+
+}
+
+#noutati-contact .adresa p2{
+    color:var(--color-light-0);
+    float: left;
+    margin-top: 70px;
+    margin-left: -150px;
+    margin-bottom: 15px;
+}
+
+#noutati-contact .contact h4{
+    color:var(--color-grey-0);
+    float: left;
+    font-weight:bold;
+    margin-left: 300px;
+    margin-top: 15px;
+}
+
+#noutati-contact .contact p1{
+    color:var(--color-light-0);
+    float: left;
+    margin-top:50px;
+    margin-left:-72px;
+
+}
+
+#noutati-contact .contact p2{
+    color:var(--color-light-0);
+    float: left;
+    margin-top: 70px;
+    margin-left: -173px;
+    margin-bottom: 15px;
+}
+#noutati-contact .contact p3{
+    color:var(--color-light-0);
+    float: left;
+    margin-top:90px;
+    margin-left:-173px;
+}
+
+#noutati-contact .contact p4{
+    color:var(--color-light-0);
+    float: left;
+    margin-top: 110px;
+    margin-left: -145px;
+    margin-bottom: 15px;
+}
+
+
+#noutati-contact form {
+  float:right;
+  margin-top:3px;
+}
+
+#noutati-contact input[type="email"]{
+  padding:4px;
+  height:28px;
+  width:250px;
+}
+
+.chenare-contact{
+  margin-top:20px;
+  background-color:var(--color-grey-1); /*#BFA374*/
+  margin-top: 0px;
+
+}
+
+.chenare-contact .chenar-contact{
+  float:left;
+  padding: 2px;
+
+
+
+}
+
+.chenare-contact .chenar-contact img{
+  width:40px;
+  margin-top: 30px;
+  margin-bottom:30px;
+
+
+}
+
+
+
+.col-dreapta-contact{
+  float:center;
+  width:40%;
+  margin-top:10px;
+  margin-left: 450px;
+}
+
+.col-dreapta-contact .parere-contact input, .col-dreapta-contact .parere-contact textarea{
+  width:90%;
+  padding:5px;
+}
+
+.buton_1_contact{
+  height:38px;
+  background:var(--color-primary-3); /* #2A7242*/
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:var(--color-light-0);
+}
+
 
 /* Cerinte media */
 @media(max-width: 768px){
+  .meniu-fix,
   header .brand,
   header .container,
   header .marcaj,
@@ -330,6 +508,7 @@ aside.text-dino p2{
   header{
     padding-bottom:20px;
   }
+
 
   .brand h2{
     padding-bottom:30px;
