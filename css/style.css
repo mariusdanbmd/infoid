@@ -309,6 +309,7 @@ aside.text-dino{
 aside.text-dino h2{
 
   padding-left: 15%;
+  padding-bottom: 3%;
   font-size:30px;
   line-height:0.2;
   color:var(--color-grey-0);
@@ -334,6 +335,14 @@ aside.text-dino p2{
 
 
 }
+
+/* Galerie foto */
+
+.thumbnail {
+   width: 50%;
+   height: 50%;
+   margin-left: 25%;
+  }
 
 /* Contact */
 
@@ -431,6 +440,7 @@ aside.text-dino p2{
 #noutati-contact form {
   float:right;
   margin-top:3px;
+
 }
 
 #noutati-contact input[type="email"]{
@@ -468,12 +478,17 @@ aside.text-dino p2{
   float:center;
   width:40%;
   margin-top:10px;
-  margin-left: 450px;
+  margin-left: 500px;
 }
 
 .col-dreapta-contact .parere-contact input, .col-dreapta-contact .parere-contact textarea{
   width:90%;
   padding:5px;
+
+}
+
+.parere-contact{
+  text-align: left;
 }
 
 .buton_1_contact{
@@ -483,21 +498,36 @@ aside.text-dino p2{
   padding-left: 20px;
   padding-right:20px;
   color:var(--color-light-0);
+
 }
 
 
 /* Cerinte media */
 @media(max-width: 768px){
-  .meniu-fix,
-  header .brand,
-  header .container,
-  header .marcaj,
-  .brand .img,
-  header nav,
-  header nav li,
-  #noutati h1,
+  header .meniu-fix,
+  header .meniu-fix .container,
+  header .meniu-fix .container .brand,
+  header .meniu-fix .container .brand .img,
+  header .meniu-fix .container .brand h2,
+  #noutati h3,
   #noutati form,
   .chenare .chenar,
+  .chenare .container .chenar,
+  .chenare .container .chenar h4,
+  .parere,
+  .fond-maro,
+  .fond-verde,
+  .prezentare-contact,
+  .prezentare-contact .container,
+  .col-dreapta-contact,
+  .fundal-contact,
+  .chenare-contact,
+  .chenare-contact .container,
+  #noutati-contact,
+  #noutati-contact .adresa,
+  #noutati-contact .contact,
+  article.poza-dino,
+  aside.text-dino,
   article.col-princip,
   aside.col-dreapta{
     float:none;
@@ -505,50 +535,92 @@ aside.text-dino p2{
     width:100%;
   }
 
-  header{
-    padding-bottom:20px;
-  }
+.meniu-fix .brand h2{
+  margin-left: -220px;
+
+}
+
+header nav{
+  text-align: center;
+}
+
+.prezentare h1{
+  margin-top:70%;
+}
+
+#noutati button, .parere button{
+  display:block;
+  width:100%;
+}
+
+#noutati h3{
+  margin-top: 20%;
+}
+
+#noutati form input[type="email"], .parere input, .parere textarea{
+  width:100%;
+  margin-bottom:5px;
+}
+
+.chenare .container .chenar{
+  margin-left: 20px;
+}
+
+.chenare .container .chenar .img-responsive{
+  margin-left: 85px;
+}
+
+.chenare .container .chenar h4{
+  text-align: center;
+}
+
+.parere{
+  text-align: left;
+  width: 110%;
+}
+
+.parere .buton_1{
+  width: 30%;
+}
+
+article.poza-dino{
+  float: none;
+  padding-left: 5px;
+  width: 600px;
+}
 
 
-  .brand h2{
-    padding-bottom:30px;
-    padding-right: 120px;
-    }
-
-  .brand img{
-    padding-left: 120px;
-    }
-
-  .prezentare h1{
-    margin-top:40px;
-  }
-
-  #noutati button, .parere button{
-    display:block;
-    width:100%;
-  }
-
-  #noutati form input[type="email"], .parere input, .parere textarea{
-    width:100%;
-    margin-bottom:5px;
-  }
-
-  article.poza-dino{
-    float: none;
-    padding-left: 80px;
-    width: 600px;
-  }
+aside.text-dino{
+  text-align: center;
+}
 
 
-  aside.text-dino{
-    width:40%;
-    padding-right: 140px;
+aside.text-dino h2{
+  margin-top: 230px;
+  margin-left: -15%;
+}
 
-  }
+aside.text-dino p1{
+  padding-top: 30px;
+  margin-left: -23%;
+}
+
+aside.text-dino p2{
+  margin-left: 100%;
+}
+
+.prezentare-contact .col-dreapta-contact{
+  margin-left: 5%;
+}
 
 
-  aside.text-dino h2{
-    margin-top: 200px;
-  }
+#noutati-contact .adresa h4{
+  margin-left: 50px;
+}
+
+#noutati-contact .contact h4{
+  margin-left: 50px;
+}
+
 
 }
